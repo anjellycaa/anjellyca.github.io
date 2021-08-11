@@ -1,0 +1,114 @@
+.parent {
+    margin-top: 30px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 500px;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 4em;
+    justify-content: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1,h2,h3{text-align: center; font-family:"Monaco";font-weight:normal;line-height:0.5}
+  p{text-align: center; font-size: 16px; font-family:"Monaco";margin-top:0;line-height:1.8;}
+  nav{text-align: center;}
+
+  .header {
+    height: 45px;
+    width: auto;
+    text-align: center;
+    font-family: "Monosten";
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  .child_wrapper {
+    position: absolute;
+  }
+
+  .child {
+    height: 280px;
+    background: #c8c7e7;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    border-top: 25px solid #c7e7c9;
+  } 
+  .child2 {
+    height: 280px;
+    background: #c7e5e7;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    border-top: 25px solid #c7e7c9;
+  } 
+  .child3 {
+    height: 130px;
+    background: #c8c7e7;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    border-top: 25px solid #c7e7c9;
+  } 
+  .circle1 {
+    height: 10px;
+    width: 10px;
+    background-color: #ce89a9;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -43px;
+    position: absolute;
+    left: 25px;
+  }
+  
+
+  .circle2 {
+    height: 10px;
+    width: 10px;
+    background-color: #54b0b5;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -43px;
+    position: absolute;
+    left: 40px;
+  }
+
+  .circle3 {
+    height: 10px;
+    width: 10px;
+    background-color: #8c89ce;
+    border-radius: 50%;
+    display: inline-block;
+    margin: -43px;
+    position: absolute;
+    left: 55px;
+  }
+  
+  .credits {
+    position: static;
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 40px;
+    margin-bottom: 50px; 
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
