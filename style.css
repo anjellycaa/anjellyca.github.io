@@ -43,7 +43,7 @@
     background: #c7e5e7;
     padding: 25px;
     border-radius: 10px;
-    text-align: left;
+    text-align:left;
     border-top: 25px solid #c7e7c9;
   } 
   .child3 {
@@ -95,7 +95,7 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 10px;
     line-height: 40px;
     margin-bottom: 50px; 
   }
@@ -120,7 +120,7 @@
     }
   
     .parent {
-      grid-template-columns: 300px ;
+      grid-template-columns: 415px;
       grid-template-rows: 325px 325px 325px;
     }
   
@@ -149,7 +149,7 @@
     }
   
     .parent {
-      grid-template-columns: 400px;
+      grid-template-columns: 415px;
       grid-template-rows: 320px 320px 320px;
     }
   
@@ -161,3 +161,28 @@
       overflow-x: hidden;
     }
   }
+
+/* Bullet Points */
+.styled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.styled li {
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+  padding-top: 10px;
+}
+
+.styled li::before {
+  content: "🍓 ";
+}
+
+.styled ul li::before {
+  content: "";
+}
+
+.styled li:nth-child(3)::before {
+  content: "🖥 ";
+}
