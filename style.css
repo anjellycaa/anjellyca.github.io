@@ -146,7 +146,7 @@
   
     .parent {
       grid-template-columns: 400px;
-      grid-template-rows: 400px 400px 400px 400px 400px 400px;
+      grid-template-rows: 400px 400px 400px  ;
     }
   
     #code_block {
