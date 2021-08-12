@@ -113,12 +113,6 @@
     clear: both;
   }
   @media (min-width: 701px) and (max-width: 1024px) {
-    @keyframes flower1 {
-      0% {padding-top: 0px;}
-      50% {padding-top: 10px;}
-      100% {padding-top: 0px;}
-    }
-  
     .parent {
       grid-template-columns: 400px;
       grid-template-rows: 325px 325px 325px;
@@ -131,11 +125,6 @@
 
   }
   @media only screen and (max-width: 700px) {
-    @keyframes flower1 {
-      0% {padding-top: 0px;}
-      50% {padding-top: 5px;}
-      100% {padding-top: 0px;}
-    }
     .credits-blurb {
       width: 80%;
     }
@@ -150,7 +139,7 @@
     }
   
     .parent {
-      grid-template-columns: 400x;
+      grid-template-columns: 300x;
       grid-template-rows: 320px 320px 320px;
     }
   
