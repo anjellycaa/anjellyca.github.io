@@ -145,11 +145,8 @@
     body {
       font-size: 16px;
     }
-    .child, .child2{
+    .child, .child2, .child3{
       height: 300px;
-    }
-    .child3 {
-      height: 150px;
     }
   
     .parent {
