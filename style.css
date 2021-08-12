@@ -115,7 +115,7 @@
   @media (min-width: 701px) and (max-width: 1024px) {
     .parent {
       grid-template-columns: 450px;
-      grid-template-rows: 400px 400px 400px;
+      grid-template-rows: 300px 300px 300px;
 
       .child, .child2 {
         height: 350px;
