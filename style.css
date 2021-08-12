@@ -3,7 +3,7 @@
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 500px;
-    grid-template-rows: 325px 325px;
+    grid-template-rows: 325px 325px 325px;
     grid-gap: 4em;
     justify-content: center;
     max-width: 1000px;
@@ -116,7 +116,7 @@
     .parent {
       grid-template-columns: 450px;
       grid-template-rows: 300px 300px 300px;
-
+    }
       .child, .child2 {
         height: 350px;
       }
