@@ -2,8 +2,8 @@
     margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: 500px;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 450px;
+    grid-template-rows: 325px 325px;
     grid-gap: 4em;
     justify-content: center;
     max-width: 1000px;
@@ -31,7 +31,7 @@
   }
 
   .child {
-    height: 280px;
+    height: 255px;
     background: #c8c7e7;
     padding: 25px;
     border-radius: 10px;
@@ -39,7 +39,7 @@
     border-top: 25px solid #c7e7c9;
   } 
   .child2 {
-    height: 280px;
+    height: 255px;
     background: #c7e5e7;
     padding: 25px;
     border-radius: 10px;
@@ -47,7 +47,7 @@
     border-top: 25px solid #c7e7c9;
   } 
   .child3 {
-    height: 130px;
+    height: 255px;
     background: #c8c7e7;
     padding: 25px;
     border-radius: 10px;
@@ -115,7 +115,7 @@
   @media (min-width: 701px) and (max-width: 1024px) {
     .parent {
       grid-template-columns: 400px;
-      grid-template-rows: 325px 325px 325px;
+    grid-template-rows: 350px 350px 350px;
     }
   
     #code_block {
@@ -134,16 +134,13 @@
     body {
       font-size: 16px;
     }
-    .child, .child2 {
+    .child, .child2, .child3 {
       height: 300px;
     }
-    .child3{
-      height: 150px;
-    }
-
+  
     .parent {
-      grid-template-columns: 400x;
-      grid-template-rows: 325px 325px 325px;
+      grid-template-columns: 400px;
+      grid-template-rows: 350px 350px 350px;
     }
   
     #code_block {
