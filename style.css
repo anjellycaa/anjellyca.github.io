@@ -2,7 +2,7 @@
     margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: 450px;
+    grid-template-columns: 400px;
     grid-template-rows: 325px 325px 325px;
     grid-gap: 4em;
     justify-content: center;
@@ -114,8 +114,8 @@
   }
   @media (min-width: 701px) and (max-width: 1024px) {
     .parent {
-      grid-template-columns: 300px;
-      grid-template-rows: 400px 400px 400px;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 325px 325px 325px 325px;
     }
   
   @media only screen and (max-width: 700px) {
@@ -138,7 +138,7 @@
   
     .parent {
       grid-template-columns: 300px;
-      grid-template-rows: 400px 400px 400px ;
+      grid-template-rows: 325px 325px 325px 325px 325px 325px 325px 325px ;
     }
 
     }
