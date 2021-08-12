@@ -135,14 +135,14 @@
       font-size: 16px;
     }
     .child, .child2 {
-      height: 400px;
+      height: 300px;
+    }
+    .child3{
+      height: 150px;
     }
 
-  .child3 {
-    height: 150px;
-  }
     .parent {
-      grid-template-columns: 300x;
+      grid-template-columns: 400x;
       grid-template-rows: 320px 320px 320px;
     }
   
