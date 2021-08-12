@@ -137,9 +137,9 @@
     .child, .child2 {
       height: 400px;
     }
-  .child3 {
 
-    height: 200px;
+  .child3 {
+    height: 150px;
   }
     .parent {
       grid-template-columns: 300x;
